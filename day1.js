@@ -2,7 +2,7 @@
 
 const file = Bun.file('./data/day1.txt');
 const dataText = await file.text();
-const dataSplit = await dataText.split('\n');
+const dataSplit = dataText.split('\n');
 
 const list1 = [];
 const list2 = [];
